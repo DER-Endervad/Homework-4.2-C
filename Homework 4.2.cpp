@@ -21,5 +21,7 @@ int main()
                 arr[i].output(out);
             }
         }
+        out.close();
+        delete[] arr;
     }
 }
