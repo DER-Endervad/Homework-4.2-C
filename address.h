@@ -25,7 +25,7 @@ public:
 		file.clear();
 	}
 
-	void sort(address* arr, const int size) {
+	static void sort(address* arr, const int size) {
 		bool swap = false;
 		do {
 			swap = false;

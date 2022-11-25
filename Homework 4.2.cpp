@@ -13,7 +13,7 @@ int main()
             arr[i].full(in);
         }
         in.close();
-        arr->sort(arr, size);
+        address::sort(arr, size);
         std::ofstream out("out.txt", std::ios::out);
         if (out.is_open()) {
             out << size; out << "\n";
